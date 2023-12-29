@@ -1,0 +1,15 @@
+
+# Reference: https://github.com/nodejitsu/module-foundry/blob/master/.gitignore
+.DS_Store
+/tmp
+/tmp/*
+node_modules/
+node_modules/*
+npm-debug.log
+config.json
+example/*.tgz
+example/package
+example/packages/*.tgz
+example/packages/package
+/*.tgz
+/package/

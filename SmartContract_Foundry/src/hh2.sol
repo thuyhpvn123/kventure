@@ -46,7 +46,7 @@ contract KVentureStorage {
     uint256 comMatrixRate = 25;
     uint256 public usdtDecimal = 10**6; 
     uint registerFee = 40 * usdtDecimal;
-    uint subcriptionFee =10 * usdtDecimal;
+    uint subcriptionFee = 10 * usdtDecimal;
     uint32 public day = 1; 
 
     event Subcribed(address user,uint id);
