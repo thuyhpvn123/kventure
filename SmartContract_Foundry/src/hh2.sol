@@ -79,7 +79,7 @@ contract KVenture is Initializable, OwnableUpgradeable, KVentureStorage {
         comMatrixRate = 25;
         usdtDecimal = 10**6; 
         registerFee = 40 * usdtDecimal;
-        subcriptionFee =10 * usdtDecimal;
+        subcriptionFee = 10 * usdtDecimal;
         day = 1;
         maxLineForMatrixBonus = 15;
     }

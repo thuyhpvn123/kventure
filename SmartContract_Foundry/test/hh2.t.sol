@@ -25,7 +25,7 @@ contract KVentureTest is Test {
         }
     }
 
-    // Function này dùng để  set up  test - Giống constructor của smart contract
+    // Function này dùng để  set up  test - Giống constructor của smart contract (Run mỗi lần sau khi test)
     function setUp() public {
         // Init addressList to call
         initAddressListToCall();
